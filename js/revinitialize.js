@@ -10,7 +10,7 @@ Reveal.initialize({
   // More info https://github.com/hakimel/reveal.js#dependencies
   dependencies: [
     { src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
-    { src: 'plugin/multiplex/master.js', async: true },
+    { src: 'plugin/multiplex/client.js', async: true },
     { src: 'plugin/markdown/marked.js' },
     { src: 'plugin/markdown/markdown.js' },
     { src: 'plugin/notes/notes.js', async: true },
