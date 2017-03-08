@@ -14,8 +14,8 @@ Reveal.initialize({
   //control slide from another dev
   multiplex: {
     // Example values. To generate your own, see the socket.io server instructions.
-    secret: '14837127463157141816', // Obtained from the socket.io server. Gives this (the master) control of the presentation
-    id: 'cd4c1b33a6688b2c', // Obtained from socket.io server
+    secret: '14890134248915962476', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+    id: '4eb1e6f7809c9dd4', // Obtained from socket.io server
     url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
   },
   // More info https://github.com/hakimel/reveal.js#dependencies
