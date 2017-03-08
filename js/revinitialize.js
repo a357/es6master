@@ -1,6 +1,17 @@
 // More info https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
+  width: "120%",
+  height: "90%",
+  margin: 0,
+  minScale: 0.2,
+  maxScale: 0.6,
+  // Enable the slide overview mode
+  overview: true,
+  // Push each slide change to the browser history
   history: true,
+  // Display the page number of the current slide
+  slideNumber: true,
+  //control slide from another dev
   multiplex: {
     // Example values. To generate your own, see the socket.io server instructions.
     secret: null, // Obtained from the socket.io server. Gives this (the master) control of the presentation
